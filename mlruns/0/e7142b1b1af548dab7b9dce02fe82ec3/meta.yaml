@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kali/mlops_pp/mlruns/0/e7142b1b1af548dab7b9dce02fe82ec3/artifacts
+end_time: 1711633638191
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e7142b1b1af548dab7b9dce02fe82ec3
+run_name: popular-bear-92
+run_uuid: e7142b1b1af548dab7b9dce02fe82ec3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711633635029
+status: 3
+tags: []
+user_id: kali

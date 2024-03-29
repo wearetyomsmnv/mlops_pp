@@ -1,0 +1,19 @@
+   apiVersion: apps/v1
+   kind: Deployment
+   metadata:
+     name: iris-classification-deployment
+   spec:
+     replicas: 1
+     selector:
+       matchLabels:
+         app: iris-classification
+     template:
+       metadata:
+         labels:
+           app: iris-classification
+       spec:
+         containers:
+         - name: iris-classification
+           image: iris-classification:latest
+           ports:
+           - containerPort: 80
